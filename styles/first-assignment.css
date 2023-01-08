@@ -4,7 +4,7 @@
     font-family: 'Work Sans', sans-serif;
 
 }
-
+/* header section */
 .header {
     background-image: url('../images/banner/banner1.png');
     background-size: cover;
@@ -47,6 +47,12 @@
     padding: 20px 25px;
 }
 
+.person-img {
+    width: 569px;
+    height: 723.3px;
+    display: block;
+}
+
 .main {
     margin: 100px 50px;
     display: flex;
@@ -64,12 +70,6 @@
 }
 
 
-.person-img {
-    width: 569px;
-    height: 723.3px;
-    display: block;
-}
-
 
 .main-heading {
     font-weight: 700;
@@ -86,6 +86,135 @@
     margin-bottom: 16px;
 }
 
+.main li {
+    list-style: none;
+
+}
+
+
 .main li i {
     color: rgb(55, 156, 55);
+}
+
+/* plans section */
+.plans {
+    margin: 0 30px;
+    padding-bottom: 110px;
+
+}
+
+.plans-section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 20px;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    /* text-align: center; */
+    color: #151414;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.plans-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.plans img {
+    align-items: center;
+}
+
+.call-now {
+    height: 300px;
+    /* background-image: url(../images/watch.png); */
+    background: linear-gradient(to right, #F15B22, rgba(241, 91, 34, 0)), url(../images/watch.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 60px;
+}
+
+.call-now-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 24px;
+
+
+}
+
+.btn-second {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 35px;
+
+}
+
+.footer {
+    background: #151414;
+    color: #FFFFFF;
+    display: flex;
+    gap: 100px;
+    width: 1200px;
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.future-title {
+    padding-bottom: 16px;
+}
+
+.future-para {
+    padding-bottom: 16px;
+}
+
+.logo {
+    display: flex;
+    padding: 15px;
+    width: 47px;
+    height: 46px;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 30px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.icons {
+    width: 35px;
+    height: 45px;
+    margin: 10px 15px 10px 0;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
