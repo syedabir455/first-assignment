@@ -48,22 +48,44 @@
 }
 
 .main {
-    margin: 0 200px;
+    margin: 100px 50px;
     display: flex;
     align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+
 }
 
-.person-img {}
+.main-side {
+    width: 416px;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+
+.person-img {
+    width: 569px;
+    height: 723.3px;
+    display: block;
+}
+
 
 .main-heading {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    margin-bottom: 24px;
+
 }
 
 .main-para {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
+    margin-bottom: 16px;
+}
 
+.main li i {
+    color: rgb(55, 156, 55);
 }
